@@ -7,7 +7,11 @@ An app with 6 buttons and an image view. Each button swaps out an image and play
 Should teach
 
 -UIImageView
+
 -UIButton and IBActions - touchUpInside
+
 -Properties
+
 -Sound Effects - AVFoundation framework and the AVAudioPlayer
+
 -NSMutableArray for storing sounds
