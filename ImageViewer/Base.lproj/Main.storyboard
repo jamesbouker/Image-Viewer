@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pAK-3e-gDE"/>
+                        <viewControllerLayoutGuide type="bottom" id="LgJ-il-YZ7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utR-zZ-s6a">
+                                <rect key="frame" x="42" y="435" width="55" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Image 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showImage1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pC9-o4-P5L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nba-E7-dsj">
+                                <rect key="frame" x="42" y="474" width="62" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Image 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showImage2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ms5-go-Mai"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBO-fU-bYd">
+                                <rect key="frame" x="42" y="515" width="62" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Image 3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showImage3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aSF-lj-Alx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gF2-va-RGf">
+                                <rect key="frame" x="200" y="515" width="62" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Image 6">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showImage6:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IDi-hk-U8C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EnB-c0-QbX">
+                                <rect key="frame" x="200" y="474" width="62" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Image 5">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showImage5:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="doG-hD-Oaw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3m8-qb-dJZ">
+                                <rect key="frame" x="200" y="433" width="62" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Image 4">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showImage4:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Njk-Cj-dEN"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="70J-6z-fJb">
+                                <rect key="frame" x="20" y="20" width="280" height="405"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3m8-qb-dJZ" firstAttribute="baseline" secondItem="utR-zZ-s6a" secondAttribute="baseline" id="02G-l9-rrs"/>
+                            <constraint firstItem="EnB-c0-QbX" firstAttribute="leading" secondItem="3m8-qb-dJZ" secondAttribute="leading" id="3n5-DY-RNY"/>
+                            <constraint firstItem="Nba-E7-dsj" firstAttribute="top" secondItem="utR-zZ-s6a" secondAttribute="bottom" constant="9" id="4Pq-bf-Pug"/>
+                            <constraint firstItem="70J-6z-fJb" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="20" symbolic="YES" id="DbE-VR-vCr"/>
+                            <constraint firstAttribute="bottom" secondItem="rBO-fU-bYd" secondAttribute="bottom" constant="20" symbolic="YES" id="Neg-Lr-TyR"/>
+                            <constraint firstItem="EnB-c0-QbX" firstAttribute="leading" secondItem="gF2-va-RGf" secondAttribute="leading" id="OAd-Jd-BSp"/>
+                            <constraint firstItem="rBO-fU-bYd" firstAttribute="leading" secondItem="Nba-E7-dsj" secondAttribute="leading" id="S9i-XA-hSj"/>
+                            <constraint firstAttribute="trailing" secondItem="70J-6z-fJb" secondAttribute="trailing" constant="20" symbolic="YES" id="Yb0-FW-XJn"/>
+                            <constraint firstItem="gF2-va-RGf" firstAttribute="top" secondItem="EnB-c0-QbX" secondAttribute="bottom" constant="8" symbolic="YES" id="Yur-pN-dRd"/>
+                            <constraint firstItem="rBO-fU-bYd" firstAttribute="baseline" secondItem="gF2-va-RGf" secondAttribute="baseline" id="cga-aV-fwg"/>
+                            <constraint firstItem="EnB-c0-QbX" firstAttribute="top" secondItem="3m8-qb-dJZ" secondAttribute="bottom" constant="8" symbolic="YES" id="eyV-6u-FTM"/>
+                            <constraint firstItem="70J-6z-fJb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="fFU-d0-bec"/>
+                            <constraint firstItem="utR-zZ-s6a" firstAttribute="leading" secondItem="Nba-E7-dsj" secondAttribute="leading" id="iah-b9-JSb"/>
+                            <constraint firstItem="EnB-c0-QbX" firstAttribute="leading" secondItem="Nba-E7-dsj" secondAttribute="trailing" constant="96" id="rVC-Pz-pzh"/>
+                            <constraint firstItem="utR-zZ-s6a" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="42" id="v0d-d1-9If"/>
+                            <constraint firstItem="3m8-qb-dJZ" firstAttribute="top" secondItem="70J-6z-fJb" secondAttribute="bottom" constant="8" symbolic="YES" id="xBr-wS-BtI"/>
+                            <constraint firstItem="Nba-E7-dsj" firstAttribute="top" secondItem="EnB-c0-QbX" secondAttribute="top" id="xZm-hX-41J"/>
+                            <constraint firstItem="rBO-fU-bYd" firstAttribute="top" secondItem="Nba-E7-dsj" secondAttribute="bottom" constant="8" symbolic="YES" id="zdj-3S-Mfw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="70J-6z-fJb" id="52a-y9-NH0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img1.jpg" width="800" height="600"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
