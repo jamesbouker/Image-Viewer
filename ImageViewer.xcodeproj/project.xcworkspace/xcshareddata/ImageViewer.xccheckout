@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A065EAD5-3CCD-4450-A5EB-EB138CA29006</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ImageViewer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8168EB10-D39D-4824-AB39-7902346C8F51</key>
+		<string>https://github.com/jamesbouker/Image-Viewer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ImageViewer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8168EB10-D39D-4824-AB39-7902346C8F51</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jamesbouker/Image-Viewer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8168EB10-D39D-4824-AB39-7902346C8F51</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8168EB10-D39D-4824-AB39-7902346C8F51</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ImageViewer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

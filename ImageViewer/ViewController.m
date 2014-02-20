@@ -75,6 +75,9 @@
     //However, [UIImage imageNamed:] already caches the images for us!
     
     UIImage * toImage = [UIImage imageNamed:filename];
+    
+    //The code below is optional, it is what performs the transition animation
+    //_imageView.image = toImage; actually sets the imageView's image property
     [UIView transitionWithView:_imageView duration:1.0f options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
         _imageView.image = toImage;
     } completion:nil];
